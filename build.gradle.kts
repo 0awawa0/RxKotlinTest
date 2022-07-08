@@ -13,6 +13,7 @@ repositories {
 
 dependencies {
     implementation("io.reactivex.rxjava3:rxkotlin:3.0.1")
+    implementation("com.github.akarnokd:rxjava3-extensions:3.1.1")
 
     testImplementation(kotlin("test"))
 }
